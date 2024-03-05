@@ -10,7 +10,7 @@ export const projectsData = [
         image: ipod1,
         title: "Ipod React Project",
         category: "A",
-        link:'https://github.com/Rehan018/Ipod-Coding-Ninja-React-basic.git'
+        link:'https://ipod-coding-ninja-react-basic.vercel.app/'
     },
     {
         id: 2,
