@@ -3,6 +3,11 @@
 
 Welcome to your portfolio website project! This project aims to showcase your skills, experience, and projects to potential clients, employers, or collaborators. Let's get started with setting up your portfolio website using Create React App.
 
+
+![Screenshot](./src/assets/home.png)
+This is a responsive portfolio site created with ReactJS and plain CSS that implements Swiper for sliding components and EmailJS for contact services.
+
+
 ## Available Scripts
 
 In your project directory, you can run the following npm scripts:
@@ -10,6 +15,9 @@ In your project directory, you can run the following npm scripts:
 ### `npm start`
 
 This script runs the development server for your portfolio website. It opens [http://localhost:3000](http://localhost:3000) in your browser, allowing you to view and test your website locally. The development server automatically reloads the page whenever you make changes to your code.
+
+The slider component of the testimonial section is imported from [SwiperJS](
+![Screenshot](./src/assets/swiperjs.png)
 
 ### `npm test`
 
@@ -40,6 +48,36 @@ The documentation covers advanced topics such as code splitting, analyzing bundl
 
 If you need to customize the build configuration further or explore advanced deployment options, refer to the advanced configuration and deployment sections in the documentation.
 
-### Troubleshooting
+![Screenshot](./src/assets/home.png)
+This is a responsive portfolio site created with ReactJS and plain CSS that implements Swiper for sliding components and EmailJS for contact services.
 
-Encountered issues while building or deploying your portfolio website? The troubleshooting section provides solutions to common problems faced during the development process.
+### Project Features:
+- Responsive Layout
+- Fixed Navigation
+- Pop-up Modals
+- Tab Panels
+- Slider + Pagination
+- Contact Form
+- Scroll to Top
+
+
+## React-Icons
+`npm install react-icons --save`
+
+The icons from this project can be found in the *Feather* or *Heroicon* sections of the [React-Icons](https://react-icons.github.io/react-icons/) library. 
+
+
+## Slider Component
+`npm i swiper`
+
+The slider component of the testimonial section is imported from [SwiperJS](https://swiperjs.com/react) and also utlizes their pagination module.
+
+![Screenshot](./src/assets/swiperjs.png)
+
+
+## Email Component
+`npm install @emailjs/browser --save`
+
+The form modal of the contact section is setup using SDK and an email template from [EmailJS](https://www.emailjs.com/docs/examples/reactjs/).
+
+![Screenshot](./src/assets/emailjs.png)
